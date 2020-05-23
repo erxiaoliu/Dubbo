@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="hession:war exploded">
+    <output-path>$PROJECT_DIR$/hession/target/hession</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="hession" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.caucho:hessian:4.0.7" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/hession/target/hession/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="hession/web/Web" />
+    </root>
+  </artifact>
+</component>

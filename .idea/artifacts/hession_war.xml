@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hession:war">
+    <output-path>$PROJECT_DIR$/hession/target</output-path>
+    <root id="archive" name="hession.war">
+      <element id="artifact" artifact-name="hession:war exploded" />
+    </root>
+  </artifact>
+</component>

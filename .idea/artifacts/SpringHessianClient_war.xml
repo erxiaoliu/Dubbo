@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SpringHessianClient:war">
+    <output-path>$PROJECT_DIR$/SpringHessianClient/target</output-path>
+    <root id="archive" name="SpringHessianClient.war">
+      <element id="artifact" artifact-name="SpringHessianClient:war exploded" />
+    </root>
+  </artifact>
+</component>
